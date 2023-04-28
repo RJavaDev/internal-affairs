@@ -1,0 +1,41 @@
+.table-body {
+  margin-top: 40px;
+}
+td,
+th {
+  max-width: 90%;
+  text-align: center !important;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-nav {
+  background-color: rgb(97, 166, 240);
+  color: white;
+  font-size: 14px;
+}
+.popover {
+  padding: 20px;
+  margin-left: 40px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 10px #7b7b7b, -5px -5px 10px #606060;
+}
+td,
+th {
+  border: 1px solid #ededed;
+  text-align: left;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgb(173, 211, 249);
+}
+@media screen and (max-width: 1100px) {
+  .table-nav {
+    font-size: 12px;
+  }
+  .table-show {
+    font-size: 12px;
+  }
+}

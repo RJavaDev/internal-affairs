@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 35px;
+  background-color: rgb(97, 166, 240);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.blog {
+  text-align: center;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.cardsHead {
+  width: 95%;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  justify-content: space-around;
+}
+.form-deta {
+  width: 230px;
+  display: flex;
+  justify-content: space-around;
+}
+.deta-input {
+  width: 72px;
+}
+.text-input {
+  width: 220px;
+}
+.input-style {
+  height: 38px;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.section-card {
+  width: 350px;
+  font-size: 17px;
+}
+.btn-card {
+  width: 100%;
+  text-align: end;
+}
+.btn-nav {
+  width: 120px;
+  height: 38px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+}
+.btn-nav:active {
+  transform: translateY(2px);
+}
+.line {
+  width: 95%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+}
+@media screen and (max-width: 1100px) {
+  .text-input {
+    width: 140px;
+    font-size: 14px;
+  }
+  .deta-input {
+    width: 60px;
+    font-size: 12px;
+  }
+  .section-card {
+    width: 150px;
+  }
+  .btn-nav {
+    font-size: 14px;
+  }
+}
